@@ -3,13 +3,14 @@
 
 
 
-								****************************
-								*			   *
-       							        *      chouaib saad 	   *
-								*			   *
-								****************************
+						
+						
+<pre>
+							****************************
+							*                           *
+							*       chouaib saad       *
+							*                           *
+							****************************
+</pre>
 
-
-
-
-		Pour toute autre question, veuillez me contacter à l'adresse suivante : https://chouaib-saad.github.io/portfolio/#contact
+<p>Pour toute autre question, veuillez me contacter à l'adresse suivante : <a href="https://chouaib-saad.github.io/portfolio/#contact">Contact</a></p>
