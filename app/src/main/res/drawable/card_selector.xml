@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <!-- Customize the pressed state background color -->
+            <solid android:color="#C8C8C8" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <!-- Customize the default background color -->
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+</selector>

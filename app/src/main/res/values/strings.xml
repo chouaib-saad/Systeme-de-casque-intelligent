@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CasqueNET</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="sing_in">Sing In</string>
+    <string name="log_in">LOG IN</string>
+    <string name="new_user_register_here">New user ! Register here</string>
+    <string name="par_defaut">les alretes par défaut sont appliqués à tous les casque. il est possible d\'avoir des alertes différentes pour chaque casque</string>
+    <string name="forget_pass">l Don’t worry ! It happens. Please enter the phone number we will send the OTP in this phone number.</string>
+    <string name="app_nam">Bottom Navigation </string>
+    <string name="message_minutes">Please Enter Minutes...</string>
+    <string name="hint_minute">Minute</string>
+
+    <string name="screen1">Soyez vigilant, soyez sécurisé </string>
+    <string name="screen2"> Parlez et commandez  </string>
+    <string name="screen3">Protégez-vous sur la route</string>
+    <string name="screen1desc">CasquaNet surveille votre moto pour vous alerter en cas de situation suspecte daccident.</string>
+    <string name="screen2desc">Libérez vos mains et gardez le contrôle avec la reconnaissance vocale pour votre moto </string>
+    <string name="screen3desc">Explorez de nouvelles routes avec notre GPS moto personnalisé aux virages</string>
+    <string name="startDesc">Notre casque intelligent qui allie sécurité et confort pour une expérience de conduite optimale</string>
+    <string name="notre_casque_connecte_intelligent_caquqnet_a_pour_objectif_pricipal_de_garantir_la_securite_des_utilisateurs_de_deux_routes_en_integrant_des_capteurs_de_rythme_cardiadue_de_gps_de_spo2_et_de_rythme_respiratoire_otre_casque_est_capable_de_d_tecter_les_chutes_la_position_de_l_utilisateur_ainsi_que_des_informations_m_dicales_et_l_tat_du_porteur_en_cas_d_accident_en_cas_de_besoin_il_envoie_des_alertes_instantan_es_des_b_n_voles_et_peut_automatiquement_contacterles_services_d_urgence_en_cas_d_accident_grave_fournissant_ainsi_une_localisation_pr_cise_et_des_informations_m_dicales_nous_sommes_fiers_de_proposer_un_produit_innovant_qui_offre_nos_utilisateurs_la_tranquillit_d_esprit_n_cessaire_lors_de_leurs_d_placements_moto">Notre casque connecte intelligent \'CaquqNet a pour objectif pricipal de garantir la securite des utilisateurs de deux-routes. En integrant des capteurs de rythme cardiadue de GPS, de SPO2 et de rythme respiratoire, otre casque est capable de détecter les chutes, la position de l\'utilisateur, ainsi que des informations médicales et l\'état du porteur en cas d\'accident. En cas de besoin, il envoie des alertes instantanées à des bénévoles et peut automatiquement contacterles services d\'urgence en cas d\'accident grave, fournissant ainsi une localisation précise et des informations médicales. Nous sommes fiers de proposer un produit innovant qui offre à nos utilisateurs la tranquillité d\'esprit nécessaire lors de leurs déplacements à moto.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+    <string-array name="spinner_entries">
+        <item>Sélectionnez</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Theme.CasqueNET" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#304FFE</item>
+        <item name="colorPrimaryVariant">#4E64E3</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+    </style>
+    <style name="Theme.CasqueNET.NoActionBarAndStatusBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+
+
+
+
+    <style name="AppTheme.NoStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#FF0000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <!-- Add any other desired style attributes -->
+    </style>
+
+
+
+
+
+
+    <!--    //my costum rounded circle for image profile-->
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+
+    <style name="CustomAppThemeRed" parent="Theme.AppCompat.Light">
+        <!-- Customize the attributes of your app theme -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+        <!-- Add more attributes as per your requirements -->
+    </style>
+
+
+    <style name="CustomAppThemeGreen" parent="Theme.AppCompat.Light">
+        <!-- Customize the attributes of your app theme -->
+        <item name="colorPrimary">@color/green_settings</item>
+        <item name="colorAccent">@color/green_settings</item>
+        <!-- Add more attributes as per your requirements -->
+    </style>
+
+
+    <style name="RoundedDialogStyle" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,201 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/moun">
+
+
+    <ImageView
+        android:id="@+id/buttRetour"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        app:tint="@color/primary_color"
+        android:background="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="backPressed"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="contentDescription"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S'inscrire"
+            android:textStyle="bold"
+            android:textColor="@color/bleu"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textview_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merci de saisir vos information"
+            android:textColor="@color/bleu"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_input"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="8dp"
+            android:hint="entrer votre nom"
+            android:paddingHorizontal="8dp"
+            android:inputType="text"
+            android:textColor="@color/bleu"
+            android:textColorHint="#ADAEB1"
+            android:textSize="15sp"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+
+
+
+
+        <EditText
+            android:id="@+id/edittext_id"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_input"
+            android:drawableStart="@drawable/sports_motorsports_registration"
+            android:hint="identifiant"
+            android:drawablePadding="8dp"
+            android:inputType="number"
+            android:paddingHorizontal="8dp"
+            android:textColor="@color/bleu"
+            android:textColorHint="#ADAEB1"
+            android:textSize="15sp"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_input"
+            android:drawableStart="@drawable/ic_mail"
+            android:hint="exemple@gmail.com"
+            android:drawablePadding="8dp"
+            android:textSize="15sp"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="8dp"
+            android:ems="10"
+            android:textColor="@color/bleu"
+            android:textColorHint="#ADAEB1"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/edittext_phone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_input"
+            android:drawableStart="@drawable/ic_phone"
+            android:fontFamily="@font/bree"
+            android:hint="+216"
+            android:drawablePadding="8dp"
+            android:textSize="15sp"
+            android:inputType="phone"
+            android:paddingHorizontal="8dp"
+            android:textColor="@color/bleu"
+            android:textColorHint="#ADAEB1"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+        <EditText
+            android:id="@+id/edittext_pass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_input"
+            android:drawableStart="@drawable/ic_key"
+            android:fontFamily="@font/bree"
+            android:hint="************"
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            android:paddingHorizontal="8dp"
+            android:textColor="@color/bleu"
+            android:textColorHint="#ADAEB1"
+            android:textSize="15sp"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/edittext_birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Date de Naissance"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_input"
+            android:inputType="none"
+            android:drawablePadding="8dp"
+            android:paddingHorizontal="8dp"
+            android:textColor="@color/bleu"
+            android:textColorHint="#ADAEB1"
+            android:drawableStart="@drawable/birthday"
+            android:focusable="false"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button"
+                android:text="S'inscrire"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/textview_hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="I already have an account..."
+                android:textStyle="bold"
+                android:textColor="@color/bleu"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

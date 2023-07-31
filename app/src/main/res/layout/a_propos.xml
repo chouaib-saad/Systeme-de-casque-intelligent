@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_screen_fragments.settings_frags.Apropos"
+    android:orientation="vertical"
+    android:background="@drawable/bak1">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="38dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/butRetour"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:tint="@color/primary_color"
+            android:background="@drawable/ic_back"
+            tools:ignore="contentDescription"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="À propos"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/primary_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:text="Qui sommes-nous ?"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/bleu"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:text="Nous sommes une équipe de passionnés ayant pour objectif de rendre les trajets a moto plus surs et plus sereins.
+                        Notres 'CasquaNet' est le fruit de notre travail acharne et de notre engagement envers la securite routiere"
+        android:textColor="@color/bleu"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/bree"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:text="Pourquoi CasquaNet?"
+        android:textColor="@color/bleu"
+        android:layout_marginStart="10dp"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/bree"
+        android:text="@string/notre_casque_connecte_intelligent_caquqnet_a_pour_objectif_pricipal_de_garantir_la_securite_des_utilisateurs_de_deux_routes_en_integrant_des_capteurs_de_rythme_cardiadue_de_gps_de_spo2_et_de_rythme_respiratoire_otre_casque_est_capable_de_d_tecter_les_chutes_la_position_de_l_utilisateur_ainsi_que_des_informations_m_dicales_et_l_tat_du_porteur_en_cas_d_accident_en_cas_de_besoin_il_envoie_des_alertes_instantan_es_des_b_n_voles_et_peut_automatiquement_contacterles_services_d_urgence_en_cas_d_accident_grave_fournissant_ainsi_une_localisation_pr_cise_et_des_informations_m_dicales_nous_sommes_fiers_de_proposer_un_produit_innovant_qui_offre_nos_utilisateurs_la_tranquillit_d_esprit_n_cessaire_lors_de_leurs_d_placements_moto"
+        android:textColor="@color/bleu"
+        android:layout_marginTop="18dp"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/bottom_background1"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
+
+</LinearLayout>
+
+
+

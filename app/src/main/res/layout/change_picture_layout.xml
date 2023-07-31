@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/dialogTitle"
+        android:text="Modifier la photo de profil"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_app"/>
+
+    <TextView
+        android:id="@+id/fromGalleryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="De la galerie"
+        android:textSize="12sp"
+        android:textColor="@color/blue_app"
+        android:padding="16dp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/grey"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginVertical="3dp"/>
+
+    <TextView
+        android:id="@+id/fromCameraTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_app"
+        android:textSize="12sp"
+        android:text="De la caméra"
+        android:padding="16dp" />
+
+</LinearLayout>

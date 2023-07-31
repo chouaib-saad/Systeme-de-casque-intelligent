@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moun"
+    tools:context=".main_screen_fragments.InformationsMedicales">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informations Médicales"
+            android:textColor="@color/blue_app"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="18dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+
+
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Groupe sanguin"
+                android:textColor="@color/blue_app"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingEnd="15dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingStart="0dp"
+                android:layout_marginStart="8dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:spinnerMode="dropdown"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Poids kg"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/blue_app"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="15dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+            <SeekBar
+                android:id="@+id/poids_seekbar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="150"
+                android:layout_weight="2"
+                android:progressTint="@color/blue_app"
+                android:progressBackgroundTint="@color/bleu" />
+
+                    <TextView
+                        android:id="@+id/poids_Txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="0 kg"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/bleu"
+                        android:textSize="12sp"
+                        android:padding="15dp"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avez-vous subi des opérations ?"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/blue_app"/>
+
+        <RadioGroup
+            android:id="@+id/operationsRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/ouiRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oui"
+                android:layout_weight="1"
+                android:textColor="@color/bleu"
+                android:layout_marginStart="8dp"
+                android:checked="true"
+                android:tag="yes"/>
+            <RadioButton
+                android:id="@+id/nonRadioButton2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/bleu"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Non"
+                android:tag="no"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allergies"
+            android:textColor="@color/blue_app"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/allergiesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top"
+            android:paddingTop="8dp"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background_input"
+            android:hint="listez vos allergies"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autre Informations"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/blue_app"/>
+
+        <EditText
+            android:id="@+id/autreEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_input"
+            android:layout_marginHorizontal="12dp"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top"
+            android:paddingTop="8dp"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"
+            android:hint= "saisir des informations plus ici.."
+            android:autofillHints="" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="65dp"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="25dp"
+        android:text="Enregistrer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

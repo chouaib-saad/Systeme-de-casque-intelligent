@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_maps"
+        android:icon="@drawable/ic_home"
+        android:title="Maps" />
+    <item
+        android:id="@+id/bottom_informations"
+        android:icon="@drawable/info1"
+        android:title="informations" />
+
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/ic_persen"
+        android:title="Profile" />
+    <item
+        android:id="@+id/bottom_Apparail"
+        android:icon="@drawable/sports_motorsports"
+        android:title="Apparail" />
+    <item
+        android:id="@+id/bottom_Parametres"
+        android:icon="@drawable/ic_parametre"
+        android:title="Parametres" />
+
+</menu>

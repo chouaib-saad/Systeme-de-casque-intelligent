@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "257180791165",
+    "project_id": "casquenet",
+    "storage_bucket": "casquenet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257180791165:android:469b93ad101d61d92cdc14",
+        "android_client_info": {
+          "package_name": "com.example.casquenet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257180791165-qh2d0b3muekrnkskcmnor3elo47dfk5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClIL4F81C4XlWJjgtyzVkNssIhjgHOCQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257180791165-qh2d0b3muekrnkskcmnor3elo47dfk5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
